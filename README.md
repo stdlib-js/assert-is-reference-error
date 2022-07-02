@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isReferenceError;
+})();
 })();
 </script>
 ```
@@ -108,6 +110,7 @@ var bool = isReferenceError( new ReferenceError( 'beep' ) );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var bool = isReferenceError( new ReferenceError( 'reference error' ) );
 // returns true
@@ -136,6 +139,7 @@ bool = isReferenceError( {} );
 bool = isReferenceError( null );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -243,7 +247,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-error]: https://github.com/stdlib-js/assert-is-error/tree/umd
+[@stdlib/assert/is-error]: https://github.com/stdlib-js/assert-is-error/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
