@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isReferenceError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@esm/index.mjs';
+import isReferenceError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@v0.1.1-esm/index.mjs';
 ```
 
 #### isReferenceError( value )
@@ -94,7 +94,7 @@ var bool = isReferenceError( new ReferenceError( 'beep' ) );
 <body>
 <script type="module">
 
-import isReferenceError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@esm/index.mjs';
+import isReferenceError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@v0.1.1-esm/index.mjs';
 
 var bool = isReferenceError( new ReferenceError( 'reference error' ) );
 // returns true
