@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isReferenceError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-reference-error/tags). For example,
+
+```javascript
 import isReferenceError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@v0.2.0-esm/index.mjs';
 ```
 
@@ -94,7 +99,7 @@ var bool = isReferenceError( new ReferenceError( 'beep' ) );
 <body>
 <script type="module">
 
-import isReferenceError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@v0.2.0-esm/index.mjs';
+import isReferenceError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@esm/index.mjs';
 
 var bool = isReferenceError( new ReferenceError( 'reference error' ) );
 // returns true
