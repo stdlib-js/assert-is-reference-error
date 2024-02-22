@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-isReferenceError = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@umd/browser.js' )
+isReferenceError = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var isReferenceError = require( 'path/to/vendor/umd/assert-is-reference-error/in
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -116,7 +116,7 @@ var bool = isReferenceError( new ReferenceError( 'beep' ) );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-reference-error@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
