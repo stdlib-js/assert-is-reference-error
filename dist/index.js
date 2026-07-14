@@ -1,5 +1,5 @@
-"use strict";var f=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var i=f(function(q,t){
-var n=require('@stdlib/utils-get-prototype-of/dist'),o=require('@stdlib/utils-type-of/dist'),s=require('@stdlib/assert-is-error/dist');function c(r){if(typeof r!="object"||r===null)return!1;if(r instanceof ReferenceError)return!0;if(s(r))for(;r;){if(o(r)==="referenceerror")return!0;r=n(r)}return!1}t.exports=c
-});var u=i();module.exports=u;
+"use strict";var n=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(f){throw (e=0, f)}};};var i=n(function(y,t){
+var o=require('@stdlib/utils-get-prototype-of/dist'),s=require('@stdlib/utils-type-of/dist'),c=require('@stdlib/assert-is-error/dist');function u(r){if(typeof r!="object"||r===null)return!1;if(r instanceof ReferenceError)return!0;if(c(r))for(;r;){if(s(r)==="referenceerror")return!0;r=o(r)}return!1}t.exports=u
+});var p=i();module.exports=p;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
